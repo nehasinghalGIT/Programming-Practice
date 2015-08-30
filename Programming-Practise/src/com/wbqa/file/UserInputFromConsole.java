@@ -4,7 +4,7 @@ import java.io.Console;
 
 public class UserInputFromConsole {
 	
-	public static void calDivision()
+	public static void calDivision() throws Exception
 	{
 		Console c=System.console();
 		System.out.println("Enter the first number");
@@ -18,7 +18,7 @@ public class UserInputFromConsole {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		calDivision();
 		
